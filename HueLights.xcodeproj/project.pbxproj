@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1DD28CF21ED2305B00256730 /* HueLightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28CF11ED2305B00256730 /* HueLightsTests.swift */; };
 		1DD28CFA1ED230D400256730 /* SampleResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DD28CF91ED230D400256730 /* SampleResponse.json */; };
+		1DD28CFC1ED2325D00256730 /* LightParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28CFB1ED2325D00256730 /* LightParser.swift */; };
 		1DE108821EABCCE900D1124C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE108811EABCCE900D1124C /* AppDelegate.swift */; };
 		1DE108871EABCCE900D1124C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE108851EABCCE900D1124C /* Main.storyboard */; };
 		1DE108891EABCCE900D1124C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE108881EABCCE900D1124C /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		1DD28CF11ED2305B00256730 /* HueLightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueLightsTests.swift; sourceTree = "<group>"; };
 		1DD28CF31ED2305B00256730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DD28CF91ED230D400256730 /* SampleResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleResponse.json; sourceTree = "<group>"; };
+		1DD28CFB1ED2325D00256730 /* LightParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightParser.swift; sourceTree = "<group>"; };
 		1DE1087E1EABCCE900D1124C /* HueLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE108811EABCCE900D1124C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DE108861EABCCE900D1124C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				1DE108951EABCE9D00D1124C /* HueLightControlCell.swift */,
 				1DE108961EABCE9D00D1124C /* HueLightControlCell.xib */,
 				1DE108A11EABEF7A00D1124C /* LightManager.swift */,
+				1DD28CFB1ED2325D00256730 /* LightParser.swift */,
 				1DE108851EABCCE900D1124C /* Main.storyboard */,
 				1DE108881EABCCE900D1124C /* Assets.xcassets */,
 				1DE1088A1EABCCE900D1124C /* LaunchScreen.storyboard */,
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DE108A21EABEF7A00D1124C /* LightManager.swift in Sources */,
+				1DD28CFC1ED2325D00256730 /* LightParser.swift in Sources */,
 				1DE108821EABCCE900D1124C /* AppDelegate.swift in Sources */,
 				1DE108971EABCE9D00D1124C /* HueLightControlCell.swift in Sources */,
 				1DE1089C1EABDBA000D1124C /* Light.swift in Sources */,

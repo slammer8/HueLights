@@ -37,7 +37,6 @@ class LightParserTest: XCTestCase {
 
   }
 
-
   func testFirstLight(light: Light) {
     XCTAssertEqual(light.isOn, true, "Light should be on")
     XCTAssertEqual(light.brightness, 146, "Brightness not correct")

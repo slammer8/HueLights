@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DD28CF21ED2305B00256730 /* LightParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28CF11ED2305B00256730 /* LightParserTest.swift */; };
+		1DD28CFA1ED230D400256730 /* SampleResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DD28CF91ED230D400256730 /* SampleResponse.json */; };
+		1DD28CFC1ED2325D00256730 /* LightParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28CFB1ED2325D00256730 /* LightParser.swift */; };
+		1DD28CFE1ED238EA00256730 /* JSONLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD28CFD1ED238EA00256730 /* JSONLoader.swift */; };
 		1DE108821EABCCE900D1124C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE108811EABCCE900D1124C /* AppDelegate.swift */; };
 		1DE108871EABCCE900D1124C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE108851EABCCE900D1124C /* Main.storyboard */; };
 		1DE108891EABCCE900D1124C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE108881EABCCE900D1124C /* Assets.xcassets */; };
@@ -18,7 +22,23 @@
 		1DE108A21EABEF7A00D1124C /* LightManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE108A11EABEF7A00D1124C /* LightManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1DD28CF41ED2305B00256730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DE108761EABCCE900D1124C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DE1087D1EABCCE900D1124C;
+			remoteInfo = HueLights;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1DD28CEF1ED2305A00256730 /* HueLightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HueLightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD28CF11ED2305B00256730 /* LightParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightParserTest.swift; sourceTree = "<group>"; };
+		1DD28CF31ED2305B00256730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD28CF91ED230D400256730 /* SampleResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SampleResponse.json; sourceTree = "<group>"; };
+		1DD28CFB1ED2325D00256730 /* LightParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightParser.swift; sourceTree = "<group>"; };
+		1DD28CFD1ED238EA00256730 /* JSONLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONLoader.swift; sourceTree = "<group>"; };
 		1DE1087E1EABCCE900D1124C /* HueLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE108811EABCCE900D1124C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DE108861EABCCE900D1124C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +53,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1DD28CEC1ED2305A00256730 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DE1087B1EABCCE900D1124C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -43,10 +70,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DD28CF01ED2305B00256730 /* HueLightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DD28CF11ED2305B00256730 /* LightParserTest.swift */,
+				1DD28CFD1ED238EA00256730 /* JSONLoader.swift */,
+				1DD28CF31ED2305B00256730 /* Info.plist */,
+				1DD28CF91ED230D400256730 /* SampleResponse.json */,
+			);
+			path = HueLightsTests;
+			sourceTree = "<group>";
+		};
 		1DE108751EABCCE900D1124C = {
 			isa = PBXGroup;
 			children = (
 				1DE108801EABCCE900D1124C /* HueLights */,
+				1DD28CF01ED2305B00256730 /* HueLightsTests */,
 				1DE1087F1EABCCE900D1124C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				1DE1087E1EABCCE900D1124C /* HueLights.app */,
+				1DD28CEF1ED2305A00256730 /* HueLightsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +108,7 @@
 				1DE108951EABCE9D00D1124C /* HueLightControlCell.swift */,
 				1DE108961EABCE9D00D1124C /* HueLightControlCell.xib */,
 				1DE108A11EABEF7A00D1124C /* LightManager.swift */,
+				1DD28CFB1ED2325D00256730 /* LightParser.swift */,
 				1DE108851EABCCE900D1124C /* Main.storyboard */,
 				1DE108881EABCCE900D1124C /* Assets.xcassets */,
 				1DE1088A1EABCCE900D1124C /* LaunchScreen.storyboard */,
@@ -79,6 +120,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1DD28CEE1ED2305A00256730 /* HueLightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD28CF81ED2305B00256730 /* Build configuration list for PBXNativeTarget "HueLightsTests" */;
+			buildPhases = (
+				1DD28CEB1ED2305A00256730 /* Sources */,
+				1DD28CEC1ED2305A00256730 /* Frameworks */,
+				1DD28CED1ED2305A00256730 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DD28CF51ED2305B00256730 /* PBXTargetDependency */,
+			);
+			name = HueLightsTests;
+			productName = HueLightsTests;
+			productReference = 1DD28CEF1ED2305A00256730 /* HueLightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1DE1087D1EABCCE900D1124C /* HueLights */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DE108901EABCCE900D1124C /* Build configuration list for PBXNativeTarget "HueLights" */;
@@ -102,10 +161,16 @@
 		1DE108761EABCCE900D1124C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = BothPoints;
 				TargetAttributes = {
+					1DD28CEE1ED2305A00256730 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 954FVB4Q55;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1DE1087D1EABCCE900D1124C;
+					};
 					1DE1087D1EABCCE900D1124C = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 954FVB4Q55;
@@ -127,11 +192,20 @@
 			projectRoot = "";
 			targets = (
 				1DE1087D1EABCCE900D1124C /* HueLights */,
+				1DD28CEE1ED2305A00256730 /* HueLightsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1DD28CED1ED2305A00256730 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD28CFA1ED230D400256730 /* SampleResponse.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DE1087C1EABCCE900D1124C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,11 +220,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1DD28CEB1ED2305A00256730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD28CFE1ED238EA00256730 /* JSONLoader.swift in Sources */,
+				1DD28CF21ED2305B00256730 /* LightParserTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DE1087A1EABCCE900D1124C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1DE108A21EABEF7A00D1124C /* LightManager.swift in Sources */,
+				1DD28CFC1ED2325D00256730 /* LightParser.swift in Sources */,
 				1DE108821EABCCE900D1124C /* AppDelegate.swift in Sources */,
 				1DE108971EABCE9D00D1124C /* HueLightControlCell.swift in Sources */,
 				1DE1089C1EABDBA000D1124C /* Light.swift in Sources */,
@@ -159,6 +243,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DD28CF51ED2305B00256730 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DE1087D1EABCCE900D1124C /* HueLights */;
+			targetProxy = 1DD28CF41ED2305B00256730 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1DE108851EABCCE900D1124C /* Main.storyboard */ = {
@@ -180,6 +272,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1DD28CF61ED2305B00256730 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 954FVB4Q55;
+				INFOPLIST_FILE = HueLightsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bothpoints.HueLightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HueLights.app/HueLights";
+			};
+			name = Debug;
+		};
+		1DD28CF71ED2305B00256730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 954FVB4Q55;
+				INFOPLIST_FILE = HueLightsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bothpoints.HueLightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HueLights.app/HueLights";
+			};
+			name = Release;
+		};
 		1DE1088E1EABCCE900D1124C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -302,6 +426,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1DD28CF81ED2305B00256730 /* Build configuration list for PBXNativeTarget "HueLightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD28CF61ED2305B00256730 /* Debug */,
+				1DD28CF71ED2305B00256730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1DE108791EABCCE900D1124C /* Build configuration list for PBXProject "HueLights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -318,6 +451,7 @@
 				1DE108921EABCCE900D1124C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

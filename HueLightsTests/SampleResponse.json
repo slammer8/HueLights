@@ -1,0 +1,131 @@
+{
+  "lights":
+  {
+    "1":
+    {
+      "state":
+      {
+        "on":true,
+        "bri":146,
+        "hue":13234,
+        "sat":208,
+        "xy":[0.5090,0.4149],
+        "ct":459,
+        "alert":"none",
+        "effect":"none",
+        "colormode":"ct",
+        "reachable":true
+      },
+      "type": "Extended color light",
+      "name": "Living",
+      "modelid": "LCT001",
+      "swversion": "65003148",
+      "pointsymbol":
+      {
+        "1":"none",
+        "2":"none",
+        "3":"none",
+        "4":"none",
+        "5":"none",
+        "6":"none",
+        "7":"none",
+        "8":"none"
+      }
+    },
+    "2":
+    {
+      "state":
+      {
+        "on":false,
+        "bri":162,
+        "hue":2213,
+        "sat":238,
+        "xy":[0.6349,0.3413],
+        "ct":500,
+        "alert":"none",
+        "effect":"none",
+        "colormode":"xy",
+        "reachable":true
+      },
+      "type": "Extended color light",
+      "name": "Bedroom Far",
+      "modelid": "LCT001",
+      "swversion": "65003148",
+      "pointsymbol":
+      {
+        "1":"none",
+        "2":"none",
+        "3":"none",
+        "4":"none",
+        "5":"none",
+        "6":"none",
+        "7":"none",
+        "8":"none"
+      }
+    },
+    "3":
+    {
+      "state":
+      {
+        "on":false,
+        "bri":100,
+        "hue":13122,
+        "sat":211,
+        "xy":[0.3565,0.1775],
+        "ct":462,
+        "alert":"none",
+        "effect":"none",
+        "colormode":"ct",
+        "reachable":true
+      },
+      "type": "Extended color light",
+      "name": "Bedroom Near",
+      "modelid": "LCT001",
+      "swversion": "65003148",
+      "pointsymbol":
+      {
+        "1":"none",
+        "2":"none",
+        "3":"none",
+        "4":"none",
+        "5":"none",
+        "6":"none",
+        "7":"none",
+        "8":"none"
+      }
+    }
+  },
+  "groups": {},
+  "config":
+  {
+    "name": "Philips hue",
+    "mac": "00:17:88:09:26:9d",
+    "dhcp": true,
+    "ipaddress": "10.255.255.44",
+    "netmask": "255.255.255.0",
+    "gateway": "10.255.255.254",
+    "proxyaddress": "",
+    "proxyport": 0,
+    "UTC": "2012-11-02T18:34:38",
+    "whitelist":
+    {
+      "0123456789abdcef0123456789abcdef":
+      {
+        "last use date": "2012-11-02T18:34:38",
+        "create date": "2012-11-01T21:04:48",
+        "name": "iPhone 5"
+      },
+    },
+    "swversion": "01003542",
+    "swupdate":
+    {
+      "updatestate":0,
+      "url":"",
+      "text":"",
+      "notify": false
+    },
+    "linkbutton": false,
+    "portalservices": false
+  },
+  "schedules": {}
+}

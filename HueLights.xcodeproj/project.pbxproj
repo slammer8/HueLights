@@ -318,6 +318,7 @@
 				1DE108921EABCCE900D1124C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

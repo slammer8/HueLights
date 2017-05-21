@@ -29,7 +29,7 @@ final class LightManager {
         let task = session.dataTask(with: request) { (data, response, error) in
 
             guard let data = data, error == nil, let responseJSON = try? JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String: Any] else {
-                print("error was \(error)")
+                print("error was \(error.debugDescription)")
                 return
             }
 
@@ -71,11 +71,11 @@ final class LightManager {
         let task = session.dataTask(with: request) { (data, response, error) in
 
             guard let data = data, error == nil, let responseJSON = try? JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String: Any] else {
-                print("error was \(error)")
+                print("error was \(error.debugDescription)")
                 return
             }
 
-            print(responseJSON)
+            print(responseJSON ?? "")
         }
 
         task.resume()

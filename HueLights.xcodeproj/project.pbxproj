@@ -74,9 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				1DD28CF11ED2305B00256730 /* LightParserTest.swift */,
+				1DD28CFD1ED238EA00256730 /* JSONLoader.swift */,
 				1DD28CF31ED2305B00256730 /* Info.plist */,
 				1DD28CF91ED230D400256730 /* SampleResponse.json */,
-				1DD28CFD1ED238EA00256730 /* JSONLoader.swift */,
 			);
 			path = HueLightsTests;
 			sourceTree = "<group>";
